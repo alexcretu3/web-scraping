@@ -1,0 +1,5 @@
+npm install -g json-server
+composer config minimum-stability dev
+composer install
+composer require ml/json-ld
+composer require guzzlehttp/guzzle

@@ -1,0 +1,6 @@
+- Web scraping
+- Server JSON
+- Server RDF4J implementat partial
+- Front-end asincron
+- Back-end 
+- Nu s-au implementat bonusuri!

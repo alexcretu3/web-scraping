@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Proiect Cretu Alexandru - Web Semantic</title>
+		<script src="fetch_http.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>  
+		
+		<h1>Proiect Cretu Alexandru - Web Semantic</h1>
+		
+		<h2>Scraping + Afisare</h2>
+		
+		<button onclick="scrapingSite()">Buton 1</button>
+		<br><br>
+		
+		<table id="tabel1" border='1px'></table>
+		<br><br>
+	  
+		<h2>Formular 1</h2>  
+		<form method='POST'>
+			<label for="camp1">Camp 1</label>
+			<input type="text" id="camp1" name="camp1"><br><br>
+
+			<label for="camp2">Camp 2</label>
+			<input type="text" id="camp2" name="camp2">
+		
+			<button type="button" onclick="inserareSiAfisareS1()">Buton 2</button>
+		</form>
+		<br><br>
+		
+		<table id="tabel2" border='1px'></table>
+		<br><br>
+		
+		<button onclick="inserareSiAfisareS2()">Buton 3</button>
+	  
+		<br><br>
+		<table id="tabel3" border='1px'></table>
+		<br><br>
+		  
+		<h2>Formular 2</h2>  
+		<form>
+			<label for="camp3">Camp 3 <i>(stergere pe baza valoarei primului camp)</i></label>
+			<input type="text" id="camp3" name="camp3"><br><br>
+			<button type="button" onclick="stergereSiAfisareS1()">Buton 4</button>
+		</form>
+		<br><br>
+	  
+		<table id="tabel4" border='1px'></table>
+		<br><br> 
+	  
+	</body>
+</html>

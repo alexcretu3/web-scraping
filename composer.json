@@ -1,0 +1,8 @@
+{
+    "require": {
+        "easyrdf/easyrdf": "^1.1.1",
+        "ml/json-ld": "dev-master",
+        "guzzlehttp/guzzle": "7.7.x-dev"
+    },
+    "minimum-stability": "dev"
+}
